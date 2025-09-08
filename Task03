@@ -1,1 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        double balance = 5000.00;
+        double interestRate = 0.17;
+
+        double month1Interest = balance * interestRate;
+        double month1Balance = balance + month1Interest;
+
+        double month2Interest = month1Balance * interestRate;
+        double month2Balance = month1Balance + month2Interest;
+
+        System.out.println("Initial balance: $" + balance);
+        System.out.println("Balance after 1 month with interest: $" + month1Balance);
+        System.out.println("Balance after 2 months with interest: $" + month2Balance);
+    }
+}
 
