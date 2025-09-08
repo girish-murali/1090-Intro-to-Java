@@ -1,1 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        double price = 100.00;
+        double taxRate = 0.05;
+        double salesTax = price * taxRate;
+
+        System.out.println("The price is $" + price);
+        System.out.println("The sales tax at 5% is $" + salesTax);
+    }
+}
 
